@@ -12,3 +12,8 @@ git checkout .
 git pull
 git add -A     #stages everything 
 git add -u     #for modified or deleted old files 
+git branch
+touch .gitignore
+git checkout _branch name_
+git branch _new branch name_
+git merge _branch to be added in master_
