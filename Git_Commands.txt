@@ -1,6 +1,6 @@
 git status
 git init
-git add .
+git add .     #for modified or new files without delete
 git commit -m "Any name for version"
 git push origin master 
 git log 
@@ -10,4 +10,5 @@ git diff --staged -File name-
 git checkout _file name_
 git checkout .
 git pull
-git -A
+git add -A     #stages everything 
+git add -u     #for modified or deleted old files 
