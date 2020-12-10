@@ -17,3 +17,5 @@ touch .gitignore
 git checkout _branch name_
 git branch _new branch name_
 git merge _branch to be added in master_
+git branch -d _branch name_
+git push origin --delete _branch name_
