@@ -1,0 +1,13 @@
+git status
+git init
+git add .
+git commit -m "Any name for version"
+git push origin master 
+git log 
+git diff _file name_
+git diff
+git diff --staged -File name-
+git checkout _file name_
+git checkout .
+git pull
+git -A
